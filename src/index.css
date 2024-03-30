@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap');
+
+.slick-dots .slick-active div{
+    border-right: 3px solid #222 !important;
+}
+@media (max-width: 640px) { 
+    .slick-dots{
+        left: 10px !important;
+    }
+ }
+
+ .next{
+    height: 40px;
+    width: 40px;
+    background-color: #979797;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center !important;
+    color: #fff;
+    font-size: 24px;
+ }
+ .prve{
+    height: 40px;
+    width: 40px;
+    background-color: #979797;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center !important;
+    color: #fff;
+    font-size: 24px;
+    z-index: 1
+ }
+
